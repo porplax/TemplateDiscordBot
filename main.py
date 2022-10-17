@@ -10,7 +10,7 @@ from utils.read_toml import get_key
 
 # VARIABLES =========================================================
 resource = get_key('script', 'resource')
-prefix = get_key('script', 'prefix')
+prefix = get_key('bot', 'prefix')
 token = get_key('developer', 'token')
 
 intents = discord.Intents.all()  # Enables all intents. In order to work, we need to turn on the intents in developers hub.
