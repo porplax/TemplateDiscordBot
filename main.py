@@ -14,7 +14,7 @@ prefix = get_key('bot', 'prefix')
 token = get_key('developer', 'token')
 
 intents = discord.Intents.all()  # Enables all intents. In order to work, we need to turn on the intents in developers hub.
-client = commands.Bot(command_prefix=prefix, intents=intents)  # TODO: Add command prefix.
+client = commands.Bot(command_prefix=prefix, intents=intents) 
 
 # EVENTS ============================================================
 @client.event
