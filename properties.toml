@@ -3,7 +3,7 @@ prefix = "! "
 resource = "./"
 
 [developer]
-token = "MTAwNDcxMjYyNTY3MTc4MjQzMA.G5WcBP.5JGxYN8NRLj7uUEI2K-TmKM6ckeAFg1Tj7r7nc"
+token = "YOUR_TOKEN_HERE"
 
 [bot]
 name = "TEMPLATE_DISCORD_BOT"
