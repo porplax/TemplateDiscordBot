@@ -71,7 +71,7 @@ async def mute(ctx, member: discord.Member, role: discord.Role):
         return await ctx.send(f"Muted {member} from the guild!")
 
 
-# Error if user does not meet permissions for ban.
+# Error if user does not meet permissions for mute.
 @mute.error
 async def mute_err(ctx, error):
     if isinstance(error, MissingPermissions):
